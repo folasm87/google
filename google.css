@@ -1,0 +1,115 @@
+*{
+	
+	font-family: Arial,helvetica, sans-serif;
+
+}
+
+nav ul{
+  margin:0;
+  padding:.3em;
+  list-style-type: none;
+  text-align: left;
+  background-color: rgb(45, 45, 45);
+  
+}
+
+nav ul li{
+  
+  display:inline;
+  
+}
+
+nav ul li a{
+  text-decoration:none;
+  padding: .42em .5em;
+  color: lightgrey;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+nav ul li a:hover{
+	
+	background-color: 	gray;
+	border-top: thin;
+	border-top-color: red;
+}
+
+
+
+#google{
+
+	
+	width: 550px;
+	margin: 180px auto;
+	text-align: center;
+
+
+}
+
+
+
+
+.buttons{
+	color: #444444;
+	text-align: center;
+	font-weight: bold;
+	border:1px #dddddd solid;
+	min-height: 27px;
+	background-color: #f4f4f4;
+}
+
+
+#search_box{
+	
+	border:1px #d9d9d9 solid;
+	min-width: 550px;
+	min-height: 25px;
+	
+	
+	
+}
+
+
+
+footer{
+	
+	width: 100%;
+	margin:0;
+  	padding-top: .2em;
+  	padding-bottom: .5em;
+  	padding-right: 5em;
+ 
+  	position: absolute;
+  	bottom: 0;
+  	right: 0;
+  	border: 1px solid #ebebeb;
+  	background-color: white;
+
+}
+
+footer ul{
+  
+  list-style-type: none;
+  
+  text-align: right;
+ 
+}
+
+footer ul li{
+  
+  display:inline;
+  
+}
+
+footer ul li a{
+  
+  text-decoration:none;
+  padding: .5em .3em;
+  color: grey;
+  font-size: 15px;
+  
+}
+
+footer ul li a:hover{
+	text-decoration: underline;
+}
